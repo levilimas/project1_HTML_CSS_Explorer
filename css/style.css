@@ -31,8 +31,8 @@ h1 span {
     font-weight: bold;
 }
 
-span {
-    color: orange;
+span, a {
+    color: #ff9900;
 }
 
 p {
@@ -50,4 +50,10 @@ p {
     height: 0px;
     margin: 0 auto 8px;
     border: 1px solid #eceff2
+}
+
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
